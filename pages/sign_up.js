@@ -6,7 +6,7 @@ const signUp = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     setTimeout(() => {
-      router.push("/transfer");
+      router.push("/login");
     }, 1000);
   };
   return (

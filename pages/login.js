@@ -6,7 +6,7 @@ const Login = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     setTimeout(() => {
-      router.push("/transfer");
+      router.push("/dashboard-core");
     }, 1000);
   };
   return (
