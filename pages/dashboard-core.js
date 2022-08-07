@@ -15,7 +15,7 @@ const transfer = () => {
           
         </div>
       </div> */}
-      <img src="/Desktop.png" alt="" className="img-fluid" />
+      <img src="/ng-flag.png" alt="" clas />
     </div>
   );
 };
