@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const signUp = () => {
+const SignUp = () => {
   const router = useRouter();
   const submitHandler = (e) => {
     e.preventDefault();
@@ -71,4 +71,4 @@ const signUp = () => {
   );
 };
 
-export default signUp;
+export default SignUp;
